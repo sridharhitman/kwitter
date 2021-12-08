@@ -42,9 +42,7 @@ console.log(name);
 localStorage.setItem("room_name", name);
 window.location = "kwitter_page.html";
 }
-function deleteAll(){
-  firebase.remove();
-}
+
 function logout() {
   localStorage.removeItem("userName");
   window.location = "index.html";
