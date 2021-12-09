@@ -19,7 +19,7 @@ function getData() { firebase.database().ref("/"+roomName).on('value', function(
          firebase_message_id = childKey;
          message_data = childData;
 //Start code
-    
+         
 //End code
       } });  }); }
 getData();
