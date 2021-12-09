@@ -42,7 +42,7 @@ console.log(name);
 localStorage.setItem("room_name", name);
 window.location = "kwitter_page.html";
 }
-
+//Logout button
 function logout() {
   localStorage.removeItem("userName");
   window.location = "index.html";
